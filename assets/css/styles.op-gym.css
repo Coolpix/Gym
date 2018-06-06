@@ -20,6 +20,14 @@ body {
   background-color: #fff;
 }
 
+#schedule_2 {
+    display: none;
+}
+
+#schedule_3 {
+    display: none;
+}
+
 a {
   color: #6b7de0;
   outline: none;
