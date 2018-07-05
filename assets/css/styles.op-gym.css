@@ -28,6 +28,10 @@ body {
     display: none;
 }
 
+#schedule_4 {
+    display: none;
+}
+
 a {
   color: #6b7de0;
   outline: none;
