@@ -1,9 +1,9 @@
 $(document).ready(function(){
     $(".horario").on('click', function (event) {
-        let data = $(this).data('schedule');
+        var scheduleData = $(this).data('schedule');
         event.preventDefault();
         $(".schedule:visible").fadeOut('500', function () {
-            let id = 'schedule_' + data;
+            var id = 'schedule_' + scheduleData;
             $("#" + id).fadeIn('500');
         });
     });
